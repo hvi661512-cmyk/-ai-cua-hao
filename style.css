@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    }
+
+body {
+margin: 0;
+background: #080d18;
+color: white;
+font-family: Arial, sans-serif;
+}
+
+header {
+height: 75px;
+display: flex;
+align-items: center;
+padding: 12px;
+gap: 12px;
+background: #101a2c;
+border-bottom: 1px solid #263b5d;
+}
+
+.logo {
+background: #00d9ff;
+color: #07111c;
+padding: 12px;
+border-radius: 13px;
+font-weight: bold;
+font-size: 22px;
+}
+
+h1 {
+font-size: 19px;
+margin: 0;
+}
+
+header p {
+font-size: 10px;
+color: #00d9ff;
+margin: 5px 0;
+}
+
+button {
+border: 0;
+cursor: pointer;
+}
+
+#newChat {
+margin-left: auto;
+background: #17304c;
+color: #00d9ff;
+padding: 12px;
+border-radius: 12px;
+font-size: 22px;
+}
+
+#chat {
+height: calc(100dvh - 155px);
+overflow-y: auto;
+padding: 15px;
+}
+
+.welcome {
+text-align: center;
+margin-top: 65px;
+}
+
+.welcome .big {
+font-size: 55px;
+color: #00d9ff;
+}
+
+.welcome h2 {
+font-size: 25px;
+}
+
+.welcome p {
+color: #91a5c2;
+}
+
+.message {
+padding: 13px;
+margin: 12px 0;
+max-width: 88%;
+border-radius: 15px;
+line-height: 1.5;
+white-space: pre-wrap;
+overflow-wrap: anywhere;
+}
+
+.user {
+background: #075b79;
+margin-left: auto;
+}
+
+.ai {
+background: #17243a;
+border: 1px solid #29415f;
+}
+
+.label {
+color: #00d9ff;
+font-size: 11px;
+margin-bottom: 5px;
+}
+
+footer {
+position: fixed;
+bottom: 0;
+width: 100%;
+padding: 12px;
+background: #101a2c;
+border-top: 1px solid #263b5d;
+}
+
+.inputbox {
+display: flex;
+gap: 8px;
+}
+
+input {
+flex: 1;
+min-width: 0;
+background: #192840;
+border: 1px solid #34506d;
+border-radius: 13px;
+padding: 14px;
+color: white;
+outline: none;
+font-size: 15px;
+}
+
+#send {
+background: #00c9ee;
+color: #061522;
+font-weight: bold;
+padding: 0 18px;
+border-radius: 13px;
+}
+
+.note {
+text-align: center;
+font-size: 10px;
+color: #7186a3;
+margin: 9px 0 0;
+}
